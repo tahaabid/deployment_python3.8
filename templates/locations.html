@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body style="background-color:powderblue;">
+
+<h1>HotZone</h1>
+
+<h2> Location Search </h2>
+
+<form action="." method="POST">{% csrf_token %}
+    <input type="text" name="geodata_search" placeholder="Type location to search">
+    <input type="submit" value="Save">
+</form>
+
+<h3>Location Search Obtained from HK Geodata Store is:</h3>
+  <h2 style="color:black">{{loc}}</h2>
+
+</body>
+</html>
