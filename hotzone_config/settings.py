@@ -98,7 +98,7 @@ DATABASES = {
 DATABASES = {
  #'default': env.dj_db_url('DATABASE_URL')
  'default': {
-  'DATABASE_URL': 'postgres://pwmiwberhdebev:005172e6aa7e14febe2db16564f046524f6ecdee617e6652b49519a4ac1377c9@ec2-3-208-224-152.compute-1.amazonaws.com:5432/d19bj2taebf6nt'
+  'DATABASE_URL': 'postgres://pwmiwberhdebev:005172e6aa7e14febe2db16564f046524f6ecdee617e6652b49519a4ac1377c9@ec2-3-208-224-152.compute-1.amazonaws.com:5432/d19bj2taebf6nt',
   }
 }
 # Password validation
