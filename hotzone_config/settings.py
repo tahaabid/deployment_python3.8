@@ -23,10 +23,13 @@ env.read_env()
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'zrlluv1+toe5-!=-z!y(qnbo(913$(k33*o1!l_$eio@6l_j_z'
+#SECRET_KEY = 'zrlluv1+toe5-!=-z!y(qnbo(913$(k33*o1!l_$eio@6l_j_z'
+
+SECRET_KEY = env('HOTZONE_SECRET_KEY')
+
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['stark-bastion-22192.herokuapp.com', 'localhost', '127.0.0.1']
 
